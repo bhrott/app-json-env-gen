@@ -1,5 +1,3 @@
-const parseArguments = require('./lib/parseArguments')
+const args = require('./lib/args')
 
-const args = parseArguments()
-
-console.log(args)
+console.log(args.current)

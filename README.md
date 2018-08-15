@@ -105,13 +105,13 @@ module.exports = {
 Now, in `packages.json`, create this script:
 
 ```
-"gen-env-qa": "app-json-env-gen dir='./envs' target='qa' output='./my-app-conf.json'"
+"gen-env-qa": "app-json-env-gen dir=./envs target=qa output=./my-app-conf.json"
 ```
 
 And run `npm run gen-env-qa`
 
 It will:
 
--   `dir='./envs'`: enter the envs directory and look for env files.
--   `target='qa'`: it will use `qa.env.js` as primary file.
--   `output='./my-app-conf.json'`: after qa file is processed, this new file will be generated.
+-   `dir=./envs`: enter the envs directory and look for env files.
+-   `target=qa`: it will use `qa.env.js` as primary file.
+-   `output=./my-app-conf.json`: after qa file is processed, this new file will be generated.
