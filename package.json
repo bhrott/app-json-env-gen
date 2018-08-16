@@ -1,6 +1,6 @@
 {
     "name": "app-json-env-gen",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "description": "Usefull tool to create a json configuration file for your js apps.",
     "main": "cli.js",
     "scripts": {

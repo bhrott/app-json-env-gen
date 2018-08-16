@@ -233,6 +233,9 @@ Where:
 -   `dir=./my-envs`: the directory that contains `.env.js` files, you can change the `./my-envs` for your custom folder. This is optional, default `__env__`.
 -   `target=qa`: this is the target file used as a primary file. In this sample, is `qa.env.js`, if you change to `target=potato` it will use the `potato.env.js` as the main file.
 -   `output=./env.json`: this is the path that generated file will be created. You can change the `./env.json` to the path you want.
+    -   If you use a `.js` extension, it will generate a js file with `module.exports` instead pure json.
+
+Other options are available too:
 
 ## Thanks to
 
