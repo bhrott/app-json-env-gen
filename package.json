@@ -2,7 +2,7 @@
     "name": "app-json-env-gen",
     "version": "0.0.1",
     "description": "Usefull tool to create a json configuration file for your js apps.",
-    "main": "index.js",
+    "main": "cli.js",
     "scripts": {
         "test": "jest"
     },
@@ -18,5 +18,12 @@
     "homepage": "https://github.com/benhurott/app-json-env-gen#readme",
     "devDependencies": {
         "jest": "^23.5.0"
+    },
+    "dependencies": {
+        "commander": "^2.17.1",
+        "deepmerge": "^2.1.1"
+    },
+    "bin": {
+        "app-json-env-gen": "index.js"
     }
 }
