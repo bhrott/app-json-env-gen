@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/res/cover.png" height="400px" />
+  <img src="docs/res/logo-cover.png" height="400px" />
 </p>
 
 Usefull tool to create a json configuration file for your js apps.
